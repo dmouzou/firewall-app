@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fhkVK9nqLg369NFwFm9vr1rNPsOV1IUSqCL3eu087u1yEYMC/u0f6N4Re2z0NQnClqwSQ8Qj1lO9LIfszVJdHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\OneDrive - Symbiosis Institute Of Technology\\Final Year\\Btech Project Final Year\\3M_Firewall\\3M_Firewall\\3M_Firewall.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.116\\stub.system.data.sqlite.core.netstandard.1.0.116.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\system.data.sqlite.core\\1.0.116\\system.data.sqlite.core.1.0.116.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.27\\microsoft.windows.sdk.net.ref.10.0.22621.27.nupkg.sha512"
+  ],
+  "logs": []
+}

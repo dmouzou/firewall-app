@@ -1,0 +1,20 @@
+﻿3M_Firewall
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\danie\OneDrive - Symbiosis Institute Of Technology\Final Year\Btech Project Final Year\3M_Firewall\3M_Firewall\obj\Release\net6.0-windows10.0.19041.0\
+_3M_Firewall
+none
+false
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+C:\Users\danie\OneDrive - Symbiosis Institute Of Technology\Final Year\Btech Project Final Year\3M_Firewall\3M_Firewall\App.xaml
+6-1648179669
+130008154
+25-1054814053
+19919580862
+ForgotPassword.xaml;LogIn.xaml;MainWindow.xaml;ModifyRule.xaml;NewSession.xaml;RuleList.xaml;
+
+False
+

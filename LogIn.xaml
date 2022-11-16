@@ -1,0 +1,58 @@
+﻿<Window x:Class="_3M_Firewall.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3M_Firewall"
+        mc:Ignorable="d"
+        Icon="AppIcon.ico"
+        Title="Log in" Height="250" Width="400" ResizeMode="NoResize" Background="#fbfbfb" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            Username
+        </TextBlock>
+        <TextBox Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" 
+                 x:Name="usernameTextBox" Height="30" Padding="0,5,0,5" Background="#fbfbfb"></TextBox>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" VerticalAlignment="Center">
+            Password
+        </TextBlock>
+        <PasswordBox Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" 
+                 x:Name="passwordTextBox" Height="30" Padding="0,5,0,5" Background="#fbfbfb"></PasswordBox>
+
+        <Button Grid.Row="3" Grid.Column="2" VerticalAlignment="Top" Width="100" Height="30" HorizontalAlignment="Right"
+                Background="#fbfbfb" x:Name="enterSessionButton" Click="enterSessionButton_Click">
+            Enter Session
+        </Button>
+
+        <TextBlock Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right">
+            New to the app? <Hyperlink Click="Hyperlink_Click_CreateNewSession">Create new session</Hyperlink>
+        </TextBlock>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left">
+             <Hyperlink Click="Hyperlink_Click_ForgotPassword">Forgot Password?</Hyperlink>
+        </TextBlock>
+
+        <TextBlock x:Name="viewAllRulesTextBlock" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Hyperlink Click="Hyperlink_Click_ViewAllRules">View all rules</Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Window>
